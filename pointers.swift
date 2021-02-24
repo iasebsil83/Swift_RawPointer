@@ -8,8 +8,8 @@
 /*******************************************************************************************************//*******************************************************/
                                                                                                         // |                                                    //
 //allocation                                                                                            // |//allocation                                        //
-let memlen = MemoryLayout<Int32>.stride * 4                                                             // |int memlen = 4                                      //
-let ptr = UnsafeMutableRawPointer.allocate(byteCount: memlen, alignment: MemoryLayout<Int32>.alignment) // |int* ptr = malloc(memlen) //considering that        //
+let memlen = MemoryLayout<Int32>.stride * 4                                                             // |int memlen = 4;                                     //
+let ptr = UnsafeMutableRawPointer.allocate(byteCount: memlen, alignment: MemoryLayout<Int32>.alignment) // |int* ptr = malloc(memlen); //considering that       //
                                                                                                         // |                          //allocation never fails  //
                                                                                                         // |                                                    //
                                                                                                         // |                                                    //
