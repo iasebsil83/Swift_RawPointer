@@ -1,7 +1,1 @@
-Details in pointers.swift.
-
-To compile :
-> swiftc pointers.swift
-
-To run :
-> ./pointers
+Example of pointer manipulation in Swift and comparison with C.
